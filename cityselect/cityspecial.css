@@ -1,0 +1,14 @@
+.clearfix:after { display: block; content: "."; height: 0; visibility: hidden; clear: both; font-size: 0; line-height: 0; }
+.clearfix { *zoom:1;}
+.cityspecial_wrap{
+	width:418px;border:1px solid #e3d7cb;position: relative;background: #f9f9f9;z-index: 100;
+}
+
+.cityspecial_wrap .cityspecial_citylist{
+	padding: 3px;margin:0;list-style: none;color: #999;
+}
+
+.cityspecial_close{position:absolute;top:5px;left:380px;font-size: 12px;font-weight: normal;cursor: pointer;color:#999;}
+.cityspecial_citylist li{float:left;padding:2px 8px;font-size:12px;line-height: 20px;cursor: pointer;}
+.cityspecial_hover,.cityspecial_click{color:#fff;background: #a18c7c;}
+.cityspecial_wrap .cityspecial_hr{border-top:1px solid #e3d7cb;}
